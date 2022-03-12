@@ -93,12 +93,22 @@ a {
 
 footer {
   height: 240px auto;
-  border-radius: 15px;
+  
 }
 
 .github {
+  position: absolute;
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  margin-left: 50%;
+  left: 32%;
+  /* margin-left: 50%; */
+}
+
+.neocities {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 64%;
+  /* margin-left: 50%; */
 }
