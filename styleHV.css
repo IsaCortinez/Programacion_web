@@ -1,0 +1,371 @@
+body {
+  margin-left: 30%;
+  position: relative;
+  width: 414px;
+  height: 950px;
+
+  /* background: #e5e5e5; */
+  background-color: #ffffff;
+  display: flex;
+  background-image: url(./img/fondoblanco.jpg);
+  background-size: cover;
+}
+
+.foto {
+  position: absolute;
+  width: 89px;
+  height: 118px;
+  left: 31px;
+  top: 45px;  
+}
+
+header {
+  position: absolute;
+  width: 414px;
+  height: 217px;
+  background: rgba(63, 146, 146, 0.46);
+}
+
+.informacionpersonal {
+  position: absolute;
+  width: 274px;
+  height: 69px;
+  left: 129px;
+  top: 40px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: right;
+  color: #000000;
+}
+
+.nombre {
+  position: absolute;
+  width: 348px;
+  height: 21px;
+  left: 22px;
+  top: 164px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  mix-blend-mode: hard-light;
+}
+
+.cuerpoHV {
+  left: 30%;
+}
+
+.perfil {
+  position: absolute;
+  width: 368px;
+  height: 90px;
+  left: 37px;
+  top: 240px;
+}
+
+.tituloperfil {
+  position: absolute;
+  left: 0%;
+  right: 79.08%;
+  top: 24.44%;
+  bottom: 36.67%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #3f9292;
+}
+
+.contenidoperfil {
+  position: absolute;
+  left: 29.08%;
+  right: 3.8%;
+  top: 0%;
+  bottom: 0%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: justify;
+  color: #000000;
+}
+
+hr {
+  border: 2px solid #3f9292;
+  transform: rotate(0.3deg);
+}
+
+.hr1 {
+  position: absolute;
+  width: 384.01px;
+  height: 0px;
+  left: 19px;
+  top: 324px;
+}
+
+.formacion {
+  position: absolute;
+  width: 368px;
+  height: 84px;
+  right: 65px;
+  /* top: 341px; */
+}
+
+.tituloformacion {
+  position: absolute;
+  width: 90px;
+  height: 23px;
+  left: 315px;
+  top: 372px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+
+  color: #3f9292;
+}
+
+.contenidoformacion {
+  position: absolute;
+  width: 258px;
+  height: 84px;
+  left: 37px;
+  top: 341px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #000000;
+}
+
+.hr2 {
+  position: absolute;
+  width: 384.01px;
+  height: 0px;
+  left: 17px;
+  top: 448px;
+}
+
+.habilidades´ {
+  position: absolute;
+  width: 329px;
+  height: 84px;
+  left: 31px;
+  top: 463px;
+  background-color: #000000;
+  background: #000000;
+}
+
+.titulohabilidades {
+  position: absolute;
+  width: 111px;
+  height: 45px;
+  left: 31px;
+  top: 478px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+
+  color: #3f9292;
+}
+
+.contenidohabilidades {
+  position: absolute;
+  width: 178px;
+  height: 84px;
+  left: 182px;
+  top: 463px;
+  display: flex;
+}
+
+.columnaizquierda {
+  width: 50%;
+}
+
+.columnaderecha {
+  width: 50%;
+}
+
+.hr3 {
+  position: absolute;
+  width: 384.01px;
+  height: 0px;
+  left: 17px;
+  top: 553px;
+}
+
+.certificacion {
+  position: absolute;
+  width: 368px;
+  height: 126px;
+  right: 49px;
+  /* left: 31px; */
+  /* top: 570px; */
+}
+
+.titulocertificacion {
+  position: absolute;
+  width: 110px;
+  height: 23px;
+  left: 265px;
+  top: 621px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+
+  color: #3f9292;
+}
+
+.contenidocertificacion {
+  position: absolute;
+  width: 258px;
+  height: 126px;
+  left: 31px;
+  top: 570px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #000000;
+}
+
+.hr4 {
+  position: absolute;
+  width: 384.01px;
+  height: 0px;
+  left: 15px;
+  top: 711px;
+}
+
+.hobbies {
+  position: absolute;
+  width: 287px;
+  height: 167px;
+  left: 31px;
+  /* top: 719px; */
+}
+
+.titulohobbies {
+  position: absolute;
+  width: 111px;
+  height: 25px;
+  left: 31px;
+  top: 786px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+
+  color: #3f9292;
+}
+
+.contenidohobbies {
+  position: absolute;
+  width: 149px;
+  height: 167px;
+  left: 169px;
+  top: 730px;
+}
+
+.hr5 {
+  position: absolute;
+  width: 384.01px;
+  height: 0px;
+  left: 15px;
+  top: 893px;
+}
+
+.redessociales {
+  position: absolute;
+  width: 200px;
+  height: 21px;
+  /* left: 112px; */
+  /* top: 911px; */
+}
+
+.imgw {
+  position: absolute;
+  width: 22px;
+  height: 21px;
+  left: 112px;
+  top: 911px;
+}
+
+.imgf {
+  position: absolute;
+  width: 22px;
+  height: 21px;
+  left: 159px;
+  top: 911px;
+}
+
+.imgt {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  left: 202px;
+  top: 911px;
+}
+
+.imgi {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  left: 249px;
+  top: 911px;
+}
+
+.imgy {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  left: 291px;
+  top: 911px;
+}
+
+.imgatras{
+  position: absolute;
+    left: 85%;
+    top: 911px; 
+    color: #000000;
+    width: 30px;
+    height: 30px;
+    top: 1%;
+} 
+
+/* .imgatras {
+  position: absolute; 
+  left: 2%;
+  color: #ffffff;
+  width: 30px;
+  height: 30px;
+  top: 5%;
+} */

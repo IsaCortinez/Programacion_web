@@ -1,0 +1,51 @@
+body {
+  background-image: url(./img/tablero.jpg);
+  background-size: cover;
+}
+
+th {
+  padding: 10px;
+  border-style: double;
+}
+
+table {
+  top: 3%;
+  position: absolute;
+  margin-left: 45%;
+}
+
+.letra:hover {
+  background: #99ff7f5b;
+}
+
+H1 {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  left: 9%;
+}
+
+ul {
+  top: 20%;
+  line-height: 1.5;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  font-size: large;
+}
+
+.ol1 {
+  left: 5%;
+}
+
+.ol2 {
+  left: 25%;
+}
+
+.imgatras {
+  position: absolute;
+  left: 2%;
+  /*top: 911px; */
+  color: #ffffff;
+  width: 30px;
+  height: 30px;
+  top: 5%;
+}
