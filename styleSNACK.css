@@ -76,3 +76,31 @@ label {
   height: 30px;
   top: 5%;
 }
+
+.columnas {
+  padding-top: 5%;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 8%;
+  padding-right: 8%;
+
+}
+
+.opinion{
+  font-size: large;
+  margin-left: 20px;
+  font-family: "Varela Round", sans-serif;
+  height: 130px;
+  width: 180px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  align-items: center;
+  padding-left: 10%;
+}
+
+.imgopinion{
+  border-radius: 10%;
+}
