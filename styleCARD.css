@@ -76,6 +76,8 @@ body {
 
 .card .back p {
   letter-spacing: 2px;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 .card:hover .front {
