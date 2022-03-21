@@ -7,8 +7,8 @@ body {
   /* background: #e5e5e5; */
   background-color: #ffffff;
   display: flex;
-  background-image: url(./img/fondoblanco.jpg);
-  background-size: cover;
+  background-image: url(./img/fondohv.jpg);
+  /* background-size: cover; */
 }
 
 .foto {
