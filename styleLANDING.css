@@ -1,0 +1,120 @@
+body{
+    background-image: url(./img/paper2b3.jpg);
+}
+
+h1 {
+  text-align: center;
+  height: 85px;
+  color: rgba(0, 0, 0, 0.719);
+  font-size: 350%;
+  text-decoration: underline;
+}
+
+
+p {
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: x-large;
+  text-align: justify;
+  margin: 10px;
+}
+
+.titulodefinicion{
+    text-align: center;
+}
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 1%;
+}
+
+.itembeneficio {
+  font-size: x-large;
+}
+
+.titulobeneficio {
+  text-align: center;
+}
+ul {
+  padding-left: 70px;
+}
+
+.incontenedor1 {
+  background-color: #7fdeff;
+  border-radius: 30px;
+  margin: 10px;
+  padding: 20px;
+}
+
+.incontenedor2 {
+  background-color: #dabfff;
+  border-radius: 30px;
+  margin: 10px;
+  padding: 20px;
+}
+
+.incontenedor3 {
+    background-color: #d36582d8;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 20px;
+    margin-left: 6%;
+  }
+
+  .incontenedor4 {
+    background-color: #BBD8B3;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 20px;
+  }
+
+  .incontenedor5 {
+    background-color: #EE7B30;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 20px;
+    margin-left: 6%;
+  }
+
+  .partefinal{
+      display: flex;
+      margin: 10px;
+      
+
+  }
+
+  img{
+    margin: 10px;
+    width:660px;
+      height:415px;
+      border-radius: 30px;
+  }
+  
+iframe {
+    left: 50%;
+    margin: 10px;
+    margin-left: 40px;
+    border-radius: 30px;
+  }
+
+  footer{
+    text-align: center;
+  }
+
+  .wixblog{
+      text-align: center;
+  }
+
+  .imgatras {
+    position: absolute;
+    left: 2%;
+    /*top: 911px; */
+    color: #ffffff;
+    width: 30px;
+    height: 30px;
+    top: 5%;
+  }
+
+  
+  
