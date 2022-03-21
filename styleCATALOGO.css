@@ -1,0 +1,150 @@
+.contenedor {
+  display: flex;
+  flex-direction: column;
+}
+
+.arriba {
+  /* background-color: #2998cc; */
+  background-color: #000000c4;
+}
+
+marquee {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  color: aliceblue;
+  text-align: center;
+  font-size: x-large;
+}
+
+.abajo {
+  display: flex;
+  flex-direction: row;
+}
+
+.izquierdo {
+  width: 20%;
+  background-color: #7a918d;
+}
+
+.derecho {
+  width: 80%;
+  background-color: #657e5542;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  padding-top: 5%;
+  width: 80px;
+  height: 80px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.iconositem {
+  width: 20px;
+  height: 20px;
+  padding-left: 10%;
+}
+
+label {
+  color: aliceblue;
+}
+
+.item {
+  font-size: large;
+}
+
+.contactarnos {
+  text-align: center;
+  color: aliceblue;
+  font-size: x-large;
+}
+
+.carrocompra {
+  width: 30px;
+  height: 30px;
+  display: block;
+  padding-left: 96%;
+  padding-top: 1%;
+}
+
+.inferiorderechainferior {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 2%;
+}
+
+.front {
+  background: rgba(255, 255, 255, 0.808);
+  margin: 12%;
+  width: 300px;
+  /* height: 450px; */
+  margin: 20px;
+  border-radius: 17px;
+  padding-top: 2%;
+}
+
+.imgproductos {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: auto;
+}
+
+.nombreproducto {
+  font-family: "Metal", cursive;
+  text-align: center;
+  font-size: x-large;
+}
+
+.pro {
+  padding-left: 8%;
+}
+
+.precio {
+  font-weight: bolder;
+}
+
+.descripcionproducto {
+  font-family: "Shippori Antique", sans-serif;
+}
+
+.btn {
+  display: flex;
+  margin: auto;
+  background-color: #094e92c4;
+  border-radius: 10px;
+  color: aliceblue;
+ }
+
+.añadir {
+  padding: 3%;
+  justify-content: center;
+  width: 90%;
+  font-size: medium;
+  letter-spacing: 1px;
+}
+.comprar {
+  padding: 3%;
+  justify-content: center;
+  width: 90%;
+  font-size: medium;
+  letter-spacing: 1px;
+}
+
+.imgatras {
+  position: absolute;
+  left: 2%;
+  /*top: 911px; */
+  color: #ffffff;
+  width: 30px;
+  height: 30px;
+  top: 7%;
+}
+
