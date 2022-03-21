@@ -1,0 +1,78 @@
+body {
+  width: 1300px;
+  margin-top: 5%;
+  margin-left: 2.5%;
+  background-color: rgb(0, 0, 0);
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #000000;
+}
+
+.texto {
+  width: 50%;
+  margin-left: 25px;
+  padding: 2%;
+  color: rgba(255, 255, 255, 0.842);
+  font-family: "Lobster";
+}
+
+.imagenes {
+  display: flex;
+  width: 40%;
+  width: 240px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 10%;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(236, 47, 47);
+  font-size: 300%;
+  letter-spacing: 3px;
+}
+
+p {
+  font-size: large;
+  text-align: justify;
+  font-family: "Varela Round", sans-serif;
+}
+
+label {
+  font-size: x-large;
+}
+
+.tituloInfo {
+  font-size: large;
+  color: rgb(255, 255, 255);
+  font-family: "Lobster";
+}
+
+.Descripcion {
+  color: #ffffff;
+  font-size: large;
+  margin-left: 20px;
+  font-family: "Varela Round", sans-serif;
+}
+
+.participa {
+  background-color: gray;
+  padding: 2%;
+  border-radius: 10px;
+  margin-left: 20%;
+  font-family: "Varela Round", sans-serif;
+}
+
+.imgatras {
+  position: absolute;
+  left: 2%;
+  /*top: 911px; */
+  color: #ffffff;
+  width: 30px;
+  height: 30px;
+  top: 5%;
+}
