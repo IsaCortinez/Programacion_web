@@ -4,8 +4,7 @@
 }
 
 .arriba {
-  /* background-color: #2998cc; */
-  background-color: #000000c4;
+  background: #000000;
 }
 
 marquee {
@@ -23,7 +22,7 @@ marquee {
 
 .izquierdo {
   width: 20%;
-  background-color: #7a918d;
+  background-color: #006e90c4;
 }
 
 .derecho {
@@ -56,10 +55,11 @@ label {
 }
 
 .item {
-  font-size: large;
+  font-family: "Shippori Antique", sans-serif;
 }
 
 .contactarnos {
+  font-family: "Metal", cursive;
   text-align: center;
   color: aliceblue;
   font-size: x-large;
@@ -73,46 +73,61 @@ label {
   padding-top: 1%;
 }
 
+.titulocursos {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  font-family: "Metal", cursive;
+  padding: 0%;
+}
+
 .inferiorderechainferior {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding-top: 2%;
+  /* padding-top: 2%; */
 }
 
 .front {
-  background: rgba(255, 255, 255, 0.808);
+  background: #adcad6;
   margin: 12%;
   width: 300px;
   /* height: 450px; */
   margin: 20px;
   border-radius: 17px;
   padding-top: 2%;
+  margin-top: 0%;
 }
 
 .imgproductos {
-  width: 150px;
+  width: 260px;
   height: 150px;
   display: block;
   margin: auto;
+  border-radius: 10px;
 }
 
 .nombreproducto {
   font-family: "Metal", cursive;
   text-align: center;
   font-size: x-large;
-}
-
-.pro {
-  padding-left: 8%;
+  color: rgb(0, 0, 0);
+  padding-left: 5%;
+  line-height: 100%;
+  letter-spacing: 1px;
 }
 
 .precio {
   font-weight: bolder;
+  padding-left: 8%;
 }
 
 .descripcionproducto {
   font-family: "Shippori Antique", sans-serif;
+  padding-left: 8%;
+  padding-right: 8%;
+  text-align: justify;
 }
 
 .btn {
@@ -121,7 +136,7 @@ label {
   background-color: #094e92c4;
   border-radius: 10px;
   color: aliceblue;
- }
+}
 
 .añadir {
   padding: 3%;
@@ -147,4 +162,3 @@ label {
   height: 30px;
   top: 7%;
 }
-
