@@ -1,5 +1,5 @@
-body{
-    background-image: url(./img/paper2b3.jpg);
+body {
+  background-image: url(./img/paper2b3.jpg);
 }
 
 h1 {
@@ -10,7 +10,6 @@ h1 {
   text-decoration: underline;
 }
 
-
 p {
   margin-left: 5%;
   margin-right: 5%;
@@ -19,8 +18,8 @@ p {
   margin: 10px;
 }
 
-.titulodefinicion{
-    text-align: center;
+.titulodefinicion {
+  text-align: center;
 }
 
 .contenedor {
@@ -55,66 +54,72 @@ ul {
 }
 
 .incontenedor3 {
-    background-color: #d36582d8;
-    border-radius: 30px;
-    margin: 10px;
-    padding: 20px;
-    margin-left: 6%;
-  }
+  background-color: #d36582d8;
+  border-radius: 30px;
+  margin: 10px;
+  padding: 20px;
+  margin-left: 6%;
+}
 
-  .incontenedor4 {
-    background-color: #BBD8B3;
-    border-radius: 30px;
-    margin: 10px;
-    padding: 20px;
-  }
+.incontenedor4 {
+  background-color: #bbd8b3;
+  border-radius: 30px;
+  margin: 10px;
+  padding: 20px;
+}
 
-  .incontenedor5 {
-    background-color: #EE7B30;
-    border-radius: 30px;
-    margin: 10px;
-    padding: 20px;
-    margin-left: 6%;
-  }
+.incontenedor5 {
+  background-color: #ee7b30;
+  border-radius: 30px;
+  margin: 10px;
+  padding: 20px;
+  margin-left: 6%;
+}
 
-  .partefinal{
-      display: flex;
-      margin: 10px;
-      
+.incontenedor6 {
+  border-radius: 30px;
+  margin: 8px;
+}
 
-  }
+.incontenedor7 {
+  border-radius: 30px;
+}
 
-  img{
-    margin: 10px;
-    width:660px;
-      height:415px;
-      border-radius: 30px;
-  }
-  
+/* .partefinal {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px;
+} */
+
+img {
+  margin: 10px;
+  width: 600px;
+  height: 415px;
+  border-radius: 30px;
+}
+
 iframe {
-    left: 50%;
-    margin: 10px;
-    margin-left: 40px;
-    border-radius: 30px;
-  }
+  left: 50%;
+  margin: 10px;
+  margin-left: 40px;
+  border-radius: 30px;
+}
 
-  footer{
-    text-align: center;
-  }
+footer {
+  text-align: center;
+}
 
-  .wixblog{
-      text-align: center;
-  }
+.wixblog {
+  text-align: center;
+}
 
-  .imgatras {
-    position: absolute;
-    left: 2%;
-    /*top: 911px; */
-    color: #ffffff;
-    width: 30px;
-    height: 30px;
-    top: 5%;
-  }
-
-  
-  
+.imgatras {
+  position: absolute;
+  left: 2%;
+  /*top: 911px; */
+  color: #ffffff;
+  width: 30px;
+  height: 30px;
+  top: 5%;
+}
