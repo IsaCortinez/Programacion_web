@@ -6,146 +6,148 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SOPA DE LETRAS</title>
     <link rel="stylesheet" href="./styleSL.css" />
+    <script src="./SOPADELETRAS.js"></script>
   </head>
   <body>
-
-   <h1>SOPA DE LETRAS</h1>
-   <ul class="ol1">
-       <li>Figma</li>
-       <li>Div</li>
-       <li>Header</li>
-       <li>Html</li>
-       <li>Css</li>
-       <li>Head</li>
-       <li>Dns</li>
-       <li>Main</li>
-       <li>Ol</li>
-       <li>Ul</li>
+    <h1>SOPA DE LETRAS</h1>
+    <ul class="ol1">
+      <li>Figma</li>
+      <li>Div</li>
+      <li>Header</li>
+      <li>Html</li>
+      <li>Css</li>
+      <li>Head</li>
+      <li>Dns</li>
+      <li>Main</li>
+      <li>Ol</li>
+      <li>Ul</li>
     </ul>
-       <ul class="ol2">
-       <li>Tcp</li>
-       <li>Api</li>
-       <li>Span</li>
-       <li>Section</li>
-       <li>Class</li>
-       <li>Body</li>
-       <li>Article</li>
-       <li>Footer</li>
-       <li>Img</li>
-       <li>Title</li>
-   </ul>
-
-    <table class="tabla">
-      <tr>
-        <th class="letra">S</th>
-        <th class="letra">H</th>
-        <th class="letra">E</th>
-        <th class="letra">A</th>
-        <th class="letra">D</th>
-        <th class="letra">E</th>
-        <th class="letra">R</th>
-      </tr>
-      <tr>
-        <th class="letra">N</th>
-        <th class="letra">E</th>
-        <th >S</th>
-        <th class="letra">P</th>
-        <th class="letra">P</th>
-        <th >Q</th>
-        <th >W</th>
-      </tr>
-      <tr>
-        <th class="letra">D</th>
-        <th class="letra">A</th>
-        <th class="letra">C</th>
-        <th class="letra">C</th>
-        <th class="letra">H</th>
-        <th class="letra">I</th>
-        <th class="letra">S</th>
-      </tr>
-      <tr>
-        <th class="letra">C</th>
-        <th class="letra">D</th>
-        <th class="letra">G</th>
-        <th class="letra">T</th>
-        <th class="letra">F</th>
-        <th class="letra">D</th>
-        <th class="letra">S</th>
-      </tr>
-      <tr>
-        <th class="letra">S</th>
-        <th class="letra">E</th>
-        <th class="letra">M</th>
-        <th >Z</th>
-        <th class="letra">I</th>
-        <th class="letra">L</th>
-        <th class="letra">P</th>
-      </tr>
-      <tr>
-        <th class="letra">S</th>
-        <th class="letra">L</th>
-        <th class="letra">I</th>
-        <th class="letra">V</th>
-        <th class="letra">G</th>
-        <th class="letra">O</th>
-        <th class="letra">A</th>
-      </tr>
-      <tr>
-        <th class="letra">A</th>
-        <th class="letra">N</th>
-        <th class="letra">I</th>
-        <th class="letra">A</th>
-        <th class="letra">M</th>
-        <th class="letra">L</th>
-        <th class="letra">N</th>
-      </tr>
-      <tr>
-        <th class="letra">L</th>
-        <th >Q</th>
-        <th >Q</th>
-        <th >Q</th>
-        <th class="letra">A</th>
-        <th class="letra">U</th>
-        <th >P</th>
-      </tr>
-      <tr>
-        <th class="letra">C</th>
-        <th class="letra">B</th>
-        <th class="letra">O</th>
-        <th class="letra">D</th>
-        <th class="letra">Y</th>
-        <th >D</th>
-        <th >W</th>
-      </tr>
-      <tr>
-        <th class="letra">A</th>
-        <th class="letra">R</th>
-        <th class="letra">T</th>
-        <th class="letra">I</th>
-        <th class="letra">C</th>
-        <th class="letra">L</th>
-        <th class="letra">E</th>
-      </tr>
-      <tr>
-        <th class="letra">R</th>
-        <th class="letra">E</th>
-        <th class="letra">T</th>
-        <th class="letra">O</th>
-        <th class="letra">O</th>
-        <th class="letra">F</th>
-        <th >B</th>
-      </tr>
-      <tr>
-        <th >M</th>
-        <th >L</th>
-        <th class="letra">T</th>
-        <th class="letra">I</th>
-        <th class="letra">T</th>
-        <th class="letra">L</th>
-        <th class="letra">E</th>
-      </tr>
-    </table>
-
-    <a class="imgatras" href="index.html"><img  class="imgatras" src="./img/atras.png" alt="imgatras"> </a>
+    <ul class="ol2">
+      <li>Tcp</li>
+      <li>Api</li>
+      <li>Span</li>
+      <li>Section</li>
+      <li>Class</li>
+      <li>Body</li>
+      <li>Article</li>
+      <li>Footer</li>
+      <li>Img</li>
+      <li>Title</li>
+    </ul>
+    <form id="SOPADELETRAS">
+      <table class="tabla">
+        <tr>
+          <th class="letra" id="section1" onclick="comprobarsection1()">S</th>
+          <th class="letra" id="header1" onclick="comprobarheader1()">H</th>
+          <th class="letra" id="header2" onclick="comprobarheader2()">E</th>
+          <th class="letra" id="header3" onclick="comprobarheader3()">A</th>
+          <th class="letra" id="header4" onclick="comprobarheader4()">D</th>
+          <th class="letra" id="header5" onclick="comprobarheader5()">E</th>
+          <th class="letra" id="header6" onclick="comprobarheader6()">R</th>
+        </tr>
+        <tr>
+          <th class="letra" id="dns1" onclick="comprobardns1()">N</th>
+          <th class="letra" id="section2" onclick="comprobarsection2()">E</th>
+          <th>S</th>
+          <th class="letra" id="tcp1" onclick="comprobartcp1()">P</th>
+          <th class="letra" id="api1" onclick="comprobarapi1()">P</th>
+          <th>Q</th>
+          <th class="letra" id="css1" onclick="comprobarcss1()">C</th>
+        </tr>
+        <tr>
+          <th class="letra" id="dns2" onclick="comprobardns2()">D</th>
+          <th class="letra" id="head1" onclick="comprobarhead1()">A</th>
+          <th class="letra" id="section3" onclick="comprobarsection3()">C</th>
+          <th class="letra" id="tcp2" onclick="comprobartcp2()">C</th>
+          <th class="letra" id="html1" onclick="comprobarhtml1()">H</th>
+          <th class="letra" id="api2" onclick="comprobarapi2()">I</th>
+          <th class="letra" id="css2" onclick="comprobarcss2()">S</th>
+        </tr>
+        <tr>
+          <th class="letra">C</th>
+          <th class="letra" id="head2" onclick="comprobarhead2()">D</th>
+          <th class="letra" id="img1" onclick="comprobarimg1()">G</th>
+          <th class="letra" id="section4" onclick="comprobarsection4()">T</th>
+          <th class="letra" id="figma1" onclick="comprobarfigma1()">F</th>
+          <th class="letra" id="div1" onclick="comprobardiv1()">D</th>
+          <th class="letra" id="css3" onclick="comprobarcss3()">S</th>
+        </tr>
+        <tr>
+          <th class="letra" id="class1" onclick="comprobarclass1()">S</th>
+          <th class="letra">E</th>
+          <th class="letra" id="html2" onclick="comprobarhtml2()">M</th>
+          <th>Z</th>
+          <th class="letra" id="section5" onclick="comprobarsection5()">I</th>
+          <th class="letra" id="ol1" onclick="comprobarol1()">L</th>
+          <th class="letra" id="span1" onclick="comprobarspan1()">P</th>
+        </tr>
+        <tr>
+          <th class="letra" id="class2" onclick="comprobarclass2()">S</th>
+          <th class="letra" id="html3" onclick="comprobarhtml3()">L</th>
+          <th class="letra" id="img2" onclick="comprobarimg2()">I</th>
+          <th class="letra" id="div2" onclick="comprobardiv2()">V</th>
+          <th class="letra" id="figma2" onclick="comprobarfigma2()">G</th>
+          <th class="letra" id="section6" onclick="comprobarsection6()">O</th>
+          <th class="letra" id="span2" onclick="comprobarspan2()">A</th>
+        </tr>
+        <tr>
+          <th class="letra" id="class3" onclick="comprobarclass3()">A</th>
+          <th class="letra" id="main1" onclick="comprobarmain1()">N</th>
+          <th class="letra" id="main2" onclick="comprobarmain2()">I</th>
+          <th class="letra" id="main3" onclick="comprobarmain3()">A</th>
+          <th class="letra" id="figma3" onclick="comprobarfigma3()">M</th>
+          <th class="letra" id="ul1" onclick="comprobarul1()">L</th>
+          <th class="letra" id="section7" onclick="comprobarsection7()">N</th>
+        </tr>
+        <tr>
+          <th class="letra" id="class4" onclick="comprobarclass4()">L</th>
+          <th>Q</th>
+          <th>Q</th>
+          <th>Q</th>
+          <th class="letra" id="figma4" onclick="comprobarfigma4()">A</th>
+          <th class="letra" id="ul2" onclick="comprobarul2()">U</th>
+          <th>P</th>
+        </tr>
+        <tr>
+          <th class="letra" id="class5" onclick="comprobarclass5()">C</th>
+          <th class="letra" id="body1" onclick="comprobarbody1()">B</th>
+          <th class="letra" id="body2" onclick="comprobarbody2()">O</th>
+          <th class="letra" id="body3" onclick="comprobarbody3()">D</th>
+          <th class="letra" id="body4" onclick="comprobarbody4()">Y</th>
+          <th>D</th>
+          <th>W</th>
+        </tr>
+        <tr>
+          <th class="letra" id="articule1" onclick="comprobararticule1()">A</th>
+          <th class="letra" id="articule2" onclick="comprobararticule2()">R</th>
+          <th class="letra" id="articule3" onclick="comprobararticule3()">T</th>
+          <th class="letra" id="articule4" onclick="comprobararticule4()">I</th>
+          <th class="letra" id="articule5" onclick="comprobararticule5()">C</th>
+          <th class="letra" id="articule6" onclick="comprobararticule6()">L</th>
+          <th class="letra" id="articule7" onclick="comprobararticule7()">E</th>
+        </tr>
+        <tr>
+          <th class="letra" id="footer1" onclick="comprobarfooter1()">R</th>
+          <th class="letra" id="footer2" onclick="comprobarfooter2()">E</th>
+          <th class="letra" id="footer3" onclick="comprobarfooter3()">T</th>
+          <th class="letra" id="footer4" onclick="comprobarfooter4()">O</th>
+          <th class="letra" id="footer5" onclick="comprobarfooter5()">O</th>
+          <th class="letra" id="footer6" onclick="comprobarfooter6()">F</th>
+          <th>B</th>
+        </tr>
+        <tr>
+          <th>M</th>
+          <th>L</th>
+          <th class="letra" id="title1" onclick="comprobartitle1()">T</th>
+          <th class="letra" id="title2" onclick="comprobartitle2()">I</th>
+          <th class="letra" id="title3" onclick="comprobartitle3()">T</th>
+          <th class="letra" id="title4" onclick="comprobartitle4()">L</th>
+          <th class="letra" id="title5" onclick="comprobartitle5()">E</th>
+        </tr>
+      </table>
+    </form>
+    <a class="imgatras" href="index.html"
+      ><img class="imgatras" src="./img/atras.png" alt="imgatras" />
+    </a>
   </body>
 </html>

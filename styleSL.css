@@ -12,11 +12,12 @@ table {
   top: 3%;
   position: absolute;
   margin-left: 45%;
+  color: #ffffff;
 }
 
-.letra:hover {
+/* .letra:hover {
   background: #99ff7f5b;
-}
+} */
 
 H1 {
   position: absolute;
