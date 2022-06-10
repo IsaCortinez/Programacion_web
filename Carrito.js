@@ -66,8 +66,7 @@ var total = 0
     articulosCarrito.forEach(item => {       
         total = total + (item.cantidad * parseInt(item.sumprecio))
     });
-
-    document.getElementById("precioTotal").innerHTML = "Total: $" + total;
+    document.getElementById("precioTotal").innerHTML = "Total: $" + new Intl.NumberFormat('es-CO', { maximumSignificantDigits: 3 }).format(total);
 }
 
 // Lee el contenido del HTML al que le dimos click y extrae la información del curso
@@ -157,7 +156,7 @@ function carritoHTML() {
             </td>
             <td style="padding: 20px;">${titulo}</td>
             <td>${precio}</td>
-            <td style="text-align: center; width: 200%; "><a href="#sumar" data-id="${id}" class="botonsumares sumarCurso">+</a> ${cantidad}   <a href="#restar" data-id="${id}" class="botonsumares restarCurso">   -  </a>  </td>
+            <td style="text-align: center; width: 200%; ">  <a href="#restar" data-id="${id}" class="botonsumares restarCurso"> -</a>  ${cantidad}<a href="#sumar" data-id="${id}" class="botonsumares sumarCurso">+</a>   </td>
             <td>
                 <a href="#" class="borrar-curso" data-id="${id}" > X </a>
             </td>
@@ -186,3 +185,4 @@ function limpiarHTML() {
 function sincronizarStorage() {
     localStorage.setItem('carrito', JSON.stringify(articulosCarrito));
 }
+
