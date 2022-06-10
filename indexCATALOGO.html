@@ -86,16 +86,51 @@
         <div class="derecho">
           <!--Parte inferior derecha superor, donde estara el carrito de compras-->
           <div class="inferiorderechasuperior">
-            <img
-              class="carrocompra"
-              src="./img/carro-de-la-carretilla.png"
-              alt="carrocompras"
-            />
+            <!-- <div class="four columns">
+              <img
+                class="carrocompra"
+                src="./img/carro-de-la-carretilla.png"
+                alt="carrocompras"
+                id="logo"
+              />
+            </div> -->
+            <div class="two columns u-pull-right">
+              <ul>
+                <div class="submenu">
+                  <img
+                    class="carrocompra"
+                    src="./img/carro-de-la-carretilla.png"
+                    alt="carrocompras"
+                    id="img-carrito"
+                    style="align-items: right"
+                  />
+                  <div id="carrito">
+                    <table id="lista-carrito" class="u-full-width" style="width: 500px;">
+                      <thead>
+                        <tr style="text-align: center">
+                          <th>Imagen</th>
+                          <th>Nombre</th>
+                          <th>Precio</th>
+                          <th>Cantidad</th>
+                          <th></th>
+                        </tr>
+                      </thead>
+                      <tbody></tbody>
+                    </table>
+                    <h2 id=precioTotal>Total: $0</h2>
+                    <button class="vaciarcarro">
+                      <a href="#" id="vaciar-carrito">Vaciar Carrito</a>
+                    </button>
+                  </div>
+                </div>
+              </ul>
+            </div>
             <hr />
           </div>
+
           <!--Parte inferior derecha inferior, donde estaran los producto-->
           <h2 class="titulocursos">CURSOS</h2>
-          <div class="inferiorderechainferior">
+          <div class="inferiorderechainferior" id="lista-cursos">
             <!--Aqui comienzan los productos-->
             <div class="front">
               <img
@@ -108,9 +143,15 @@
                 En este curso aprenderás desde las bases de Python hacia temas
                 más avanzados del lenguaje
               </p>
-              <p class="pro precio">$220.000 COP</p>
-              <button class="btn añadir">Añadir al carrito</button><br />
-              <button class="btn comprar">Comprar</button><br />
+              <p class="precio" data-precio="220000">$220.000 COP</p>
+              <button class="btn comprar">
+                <a
+                  href="#"
+                  class="linka button input agregar-carrito"
+                  data-id="1"
+                  >Agregar a Carrito</a
+                ></button
+              ><br />
             </div>
 
             <div class="front">
@@ -126,9 +167,15 @@
                 En este poderoso lenguaje de programación web cada día más
                 utilizado. Aprenderas javascript, HTML5 y CSS3
               </p>
-              <p class="pro precio">$350.000 COP</p>
-              <button class="btn añadir">Añadir al carrito</button><br />
-              <button class="btn comprar">Comprar</button><br />
+              <p class="pro precio" data-precio="350000">$350.000 COP</p>
+              <button class="btn comprar">
+                <a
+                  href="#"
+                  class="linka button input agregar-carrito"
+                  data-id="2"
+                  >Agregar a Carrito</a
+                ></button
+              ><br />
             </div>
 
             <div class="front">
@@ -144,9 +191,15 @@
                 Domina Entity Framework Core en .NET 6, Code First, Database
                 First, Relaciones, API Fluente, Vistas y Procedimientos SQL
               </p>
-              <p class="pro precio">$250.000 COP</p>
-              <button class="btn añadir">Añadir al carrito</button><br />
-              <button class="btn comprar">Comprar</button><br />
+              <p class="pro precio" data-precio="250000">$250.000 COP</p>
+              <button class="btn comprar">
+                <a
+                  href="#"
+                  class="linka button input agregar-carrito"
+                  data-id="3"
+                  >Agregar a Carrito</a
+                ></button
+              ><br />
             </div>
 
             <div class="front">
@@ -161,9 +214,15 @@
                 K.O es una biblioteca de JavaScript que utiliza el enlace
                 declarativo para crear una visualización receptiva.
               </p>
-              <p class="pro precio">$90.000 COP</p>
-              <button class="btn añadir">Añadir al carrito</button><br />
-              <button class="btn comprar">Comprar</button><br />
+              <p class="pro precio" data-precio="90000">$90.000 COP</p>
+              <button class="btn comprar">
+                <a
+                  href="#"
+                  class="linka button input agregar-carrito"
+                  data-id="4"
+                  >Agregar a Carrito</a
+                ></button
+              ><br />
             </div>
 
             <div class="front">
@@ -174,9 +233,15 @@
                 Aprende LINQ haciendo ejemplos, tanto la sintaxis de métodos
                 como la sintáxis de queries
               </p>
-              <p class="pro precio">$90.000 COP</p>
-              <button class="btn añadir">Añadir al carrito</button><br />
-              <button class="btn comprar">Comprar</button><br />
+              <p class="pro precio" data-precio="90000">$90.000 COP</p>
+              <button class="btn comprar">
+                <a
+                  href="#"
+                  class="linka button input agregar-carrito"
+                  data-id="5"
+                  >Agregar a Carrito</a
+                ></button
+              ><br />
             </div>
 
             <div class="front">
@@ -188,14 +253,22 @@
                 Desarrolla aplicaciones web con C# Asp.Net MVC 5 , usando Razor
                 - Entity Framework - Ajax - Json - Bootstrap - Jquery
               </p>
-              <p class="pro precio">$350.000 COP</p>
-              <button class="btn añadir">Añadir al carrito</button><br />
-              <button class="btn comprar">Comprar</button><br />
+              <p class="pro precio" data-precio="350000">$350.000 COP</p>
+              <button class="btn comprar">
+                <a
+                  href="#"
+                  class="linka button input agregar-carrito"
+                  data-id="6"
+                  >Agregar a Carrito</a
+                ></button
+              ><br />
             </div>
             <!--Aqui finalizan los productos-->
           </div>
         </div>
       </div>
     </section>
+
+    <script src="Carrito.js"></script>
   </body>
 </html>
